@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Feedback Form</title>
+</head>
+
+<body>
+<h1>Feedback Form</h1>
+<br/>
+<p>Please fill out this form to help us improve our site.</p>
+<br />
+
+<form method="post" action="">
+	<p><label>Name: <input type="text" name="name"></label></p>
+    
+    <p>
+    	<label>Comments:</label> <br/>
+    	<textarea cols="30" rows="5"  name="comments">Enter comments 		here</textarea>
+    </p>
+    
+    <p>
+    	<label>Email address:</label>
+        <input type="password" name="email" size="30" maxlength="40"/>
+    </p> 
+    
+    <p>
+    <strong><label>Things you liked</label></strong><br />
+    <label>Site Design</label><input type="checkbox" name="thingsliked" value="Design"/>
+    <label>Links</label><input type="checkbox" name="thingsliked" value="Links"/>
+    <label>Easy to use</label><input type="checkbox" name="thingsliked" value="Easy"/>
+    <label>Images</label><input type="checkbox" name="thingsliked" value="Images"/>
+    </p>
+    
+    <p>
+    <strong><label>How did you get to our site?</label></strong><br />
+    <label>Search Engines</label><input type="radio" name="howtosite" value="Search Engines"/>
+    <label>Links</label><input type="radio" name="howtosite" value="Links"/>
+    <label>Easy to use</label><input type="radio" name="howtosite" value="Easy"/>
+    <label>Images</label><input type="radio" name="howtosite" value="Images"/>
+    </p>
+    
+    <p>
+    <label> Rate our site:
+    	<select name="rating">
+        	<option selected="selected">Amazing</option>
+            <option>10</option>
+            <option>9</option>
+            <option>8</option>
+            <option>7</option>
+			<option>6</option>
+			<option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+			<option>Awful</option>
+
+        
+        
+        
+        </select>
+    	</label>
+    
+</form>
+
+
+</body>
+</html>
